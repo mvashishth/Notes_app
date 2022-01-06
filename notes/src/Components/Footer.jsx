@@ -5,7 +5,7 @@ function Footer(){
    
     <div className="text-center p-3" style={{backgroundColor: "grey"}}>
       © 2021 Copyright:
-      <a className="text-dark" href=""> Mayur Vashishth</a>
+      <a className="text-dark"> Mayur Vashishth</a>
     </div>
  
   </footer>)

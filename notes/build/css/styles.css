@@ -1,0 +1,95 @@
+.login-button{
+  margin-right: 20px!important;
+}
+
+.login-text{
+  margin: 0px;
+  padding-left: 1300px;
+  color: white;
+}
+
+.createNote{
+margin-top: 2rem!important;
+margin: auto;
+width: 30%;
+text-align: center;
+}
+
+.NoteTitle{
+  border-bottom: none!important;
+  border-bottom-left-radius: 0px!important;
+  border-bottom-right-radius: 0px!important;
+  
+}
+
+.NoteContent{
+  resize: none;
+  border-top-left-radius: 0px!important;
+  border-top-right-radius: 0px!important;
+
+}
+
+.circle-button{
+  margin: 10px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+
+.Notebutton
+{
+  text-align: right;
+  padding-top: 10px;
+}
+
+input:focus, input.form-control:focus, textarea:focus {
+
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+}
+
+.writtenNote{
+  width: 30vw;
+  margin: 50px;
+  padding:10px;
+}
+
+.writtenNoteTitle{
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.writtenNoteContent{
+  height: 20vh;
+  overflow-y: auto;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  border-top: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.writtenNoteButton{
+  text-align: right;
+  padding-top: 10px;
+}
+
+.titleContent{
+  margin:0px;
+  font-size: 25px;
+}
+
+.content{
+  margin: 0px;
+  font-size: 15px;
+}

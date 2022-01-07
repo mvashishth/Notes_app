@@ -45,21 +45,17 @@ function Note(props){
     if(props.notesData===undefined){
         console.log("Logged Out State ")
         notesarray=[]
-        console.log(notesarray)
         return(<div></div>)
     }else{
         notesarray=props.notesData[0]
         if (notesarray==undefined){
-            console.log("Waiting is called "+notesarray)
             return(<div></div>)
         }else{
             if (notesarray.notes[0]==""){
-                    console.log("Else is called" + notesarray.notes)
                     return(<div></div>)
             }else{
             notesarray=notesarray.notes
             userID= props.notesData[0]._id
-            console.log(notesarray)
             if (typeof(notesarray[0])==undefined || notesarray==[]){
                 return (<div></div>)
             }
@@ -82,7 +78,6 @@ async function fetchData(id) {
 
 function getData(id){
 var parsed = fetchData(id)
-console.log("Parsed Data is " + parsed + " and ID is " + id)
 return parsed}
 
     function handleDelete(event){

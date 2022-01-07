@@ -19,7 +19,6 @@ function App() {
   if (loggedInUserID){
     getData(loggedInUserID).then(response=>{
       setNotesData(response.data)
-      console.log(response.data)
     })
     console.log(userData)
     return(userData)
@@ -53,7 +52,6 @@ function App() {
       })
       
     }else{
-      console.log("Empty promise")
     }
     
     setNotesData(Notes)
@@ -69,7 +67,6 @@ function App() {
       Notes.then(data=>{setNotesData(data.data)})
       
     }else{
-      console.log("Empty promise")
     }
     setNotesData(Notes)
 
@@ -81,7 +78,6 @@ function deleteNote(Notes){
     Notes.then(data=>{setNotesData(data.data)})
     
   }else{
-    console.log("Empty promise")
   }
   setNotesData(Notes)
 }

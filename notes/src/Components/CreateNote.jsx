@@ -27,7 +27,6 @@ function CreateNote(props){
     
     function getData(id){
     var parsed = fetchData(id)
-    console.log("Parsed Data is " + parsed + " and ID is " + id)
     return parsed
     }
     
